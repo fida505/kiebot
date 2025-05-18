@@ -1,0 +1,213 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: white;
+            font-family: 'Segoe UI', sans-serif;
+            height: 100vh;
+            
+            
+        }
+        .header{
+            background-color: darkblue;
+            height: 520px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 40px;
+            justify-content: space-between;
+            
+    
+
+        
+            
+        }
+        .logo img{
+            height: 60px;
+           position: fixed;
+            
+            
+        }
+        .navbar ul,li,button{
+            list-style: none;
+            display: flex;
+            gap: 60px;
+            
+             left: 20px;
+             color: white;
+             cursor: pointer;
+             font-size: medium;
+             font-weight: bold;
+            
+        }
+
+        
+        button {
+            background-color: white;
+            color: #0047ab;
+            padding: 8px 16px ;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            height: 50px;
+            margin-right: 50px;
+            font-size: large;
+        
+        
+        
+        }
+        button:hover {
+            background-color: #ddd;
+        
+        }
+        .content {
+            color: aliceblue;
+            font-size: x-large;
+            margin-top: 30px;
+            
+        }
+        .content>p {
+            font-size: medium;
+            word-spacing: 5px;
+        }
+        .hand{
+            position: absolute;
+             left: 1000px;
+             bottom: 140px;
+             
+        }
+            
+        main{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+    
+        }
+        .btn {
+            width: 300px;
+            height: 40px;
+            color: black;
+            border-radius: 5px;
+            background-color: aliceblue;
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+          .main-box { 
+    
+            margin-top: 80px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .box {
+            background-color: aliceblue;
+            border-radius: 0 8px;
+            padding:  30px;
+            text-align: center;
+            
+            height: 130px;
+            width: 300px;
+            flex-direction: row;
+            
+        }
+        .box h2 {
+             margin: 0;
+            font-size: 2em;
+            color: #003366;
+        }
+            .box p {
+            
+                font-size: ;
+                color: #333;
+            }
+            footer{
+                background-color: white;
+                color: black;
+                
+            }
+            .our-servic>h1{
+                text-align: center;
+                margin-top: 20px;
+                font-size: 3em;
+            }
+            .our-servic p{
+                font-size: large;
+                display: block;
+                text-align: center;
+                
+            }
+            .circle {
+                
+                margin-left: 1vw;
+                position: absolute;
+             left: 900px;
+             bottom: 190px;
+            
+            }
+        .round {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: rgb(3,45,114);
+            opacity: 0.8;
+            
+            top: 10vh;
+            z-index: 1;
+
+        }
+        .round1 {
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background-color: rgb(0,64,128);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+
+        }
+        .round2 {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background-color: rgb(0,102,204);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 3;
+
+        }   
+        .round3 {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: rgb(51,153,255);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 4;
+
+        }   
+        .lock{
+
+             position: absolute;
+             left: 1200px;
+             bottom: 250px;
+             
+        }
+        .arrow{
+            
+             position: absolute;
+             left: 1000px;
+             bottom: 130px;
+             
+
+        }
+        .flight {
+             position: absolute;
+             left: 900px;
+             top: 100px;
+             
+        }
