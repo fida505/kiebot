@@ -12,7 +12,7 @@
             
         }
         .header{
-            background-color: darkblue;
+            background-color: rgb(2, 3, 129);
              height: auto;
              width: 100%;
             display: flex;
@@ -50,7 +50,7 @@
         
         button {
             background-color: white;
-            color: #0047ab;
+            color: #0274be;
             padding: 8px 16px ;
             border-radius: 6px;
             font-weight: bold;
@@ -73,7 +73,9 @@
             margin-top: 100px;
             height: 400px;
         
-            background-color: darkblue;
+            background-color:rgb(2, 3, 129);
+
+
             
         }
         .content>p {
